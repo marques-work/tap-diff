@@ -7,7 +7,8 @@
     "tap-diff": "./distributions/cli.js"
   },
   "scripts": {
-    "babel": "babel ./sources --out-dir ./distributions",
+    "lint": "eslint sources/**",
+    "babel": "babel sources --out-dir distributions",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "axross <kou@axross.org> (http://axross.me/)",
@@ -24,7 +25,8 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1"
   },
   "engines": {
     "node": ">=4"

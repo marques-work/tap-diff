@@ -13,14 +13,14 @@
   "author": "axross <kou@axross.org> (http://axross.me/)",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.3.2",
+    "chalk": "^2.4.1",
     "diff": "^3.5.0",
     "duplexer": "^0.1.1",
     "figures": "^2.0.0",
-    "jsondiffpatch": "^0.3.8",
+    "jsondiffpatch": "^0.3.9",
     "pretty-ms": "^3.1.0",
     "tap-parser": "^7.0.0",
-    "through2": "^2.0.0"
+    "through2": "^2.0.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -1,14 +1,14 @@
 {
   "name": "tap-diff",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "The most human-friendly TAP reporter",
-  "main": "./distributions/index.js",
+  "main": "distributions/index.js",
   "bin": {
-    "tap-diff": "./distributions/cli.js"
+    "tap-diff": "distributions/cli.js"
   },
   "scripts": {
     "lint": "eslint sources/**",
-    "babel": "babel sources --out-dir distributions",
+    "prepare": "babel sources --out-dir distributions",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "axross <kou@axross.org> (http://axross.me/)",
